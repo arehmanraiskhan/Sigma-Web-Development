@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+</head>
+
+<body>
+    <h1><u>QUESTION: Without using br tag, write a vertically form asking for name,city,and pincode for the user</u>
+    </h1>
+
+    <form action="post">
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <div class="fname"><label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="lname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname">
+            </div>
+
+
+            <div>
+                <label for="city">Choose a city:</label>
+                <select id="city" name="city">
+                    <option value="karachi">Karachi</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Lahore">Lahore</option>
+                </select>
+            </div>
+            <div>
+                <label for="Pin">Pin Code:</label>
+                <input type="number" min="5" max="5"></div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
